@@ -48,8 +48,8 @@ const mapDispatchToProps = (dispatch) => ({
     addTask: (task) => dispatch({type: 'ADD_TASK', payload: task}),
     upTask: (up) => dispatch({type: 'UP_TASK', payload: up}),
     downTask: (down) => dispatch({type: 'DOWN_TASK', payload: down})
+    downTask: (down) => dispatch({type: 'DOWN_TASK', payload: down})
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
 
-вфвф
